@@ -2,6 +2,7 @@
 
 ### Introduction
 A simple to-do list as practice for using jQuery.
+Deployed at http://jsong022.github.io/to-do-list/
 
 Goal:
 - [x] enter new activity to the list by entering it into the text input
