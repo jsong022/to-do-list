@@ -1,5 +1,3 @@
-$("body").addClass("check");
-
 //Denote completed activity by clicking on them
 //Listener is on <ul> so future <li> added
 //can also have the desired action on click
@@ -36,11 +34,16 @@ $("input").on("keypress", function(event){
 		//replace '<' and '>' for code injection prevention
 		newActivity = newActivity.replace(/</g, "&lt;").replace(/>/g, "&gt;");
 		//create the HTML code for the new Activity
-		var newHTML = "<li><span class=\"delete\">[X] </span><span class=\"activity\">"
+		var newHTML = "<li><span class=\"delete\"><i class=\"fa fa-trash-o\"></i></span><span class=\"activity\">"
 		newHTML += newActivity + "</span></li>";
 		//reset the input field
 		$(this).val("");
 		//add it to the to-do list
 		$("ul").append(newHTML);
 	}
+});
+
+//click on the pencil & note icon to show text input
+$("#newAct").on("click", function(){
+	$("#newActInput").fadeToggle(500)
 });

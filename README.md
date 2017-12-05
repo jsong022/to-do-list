@@ -13,8 +13,11 @@ Goal:
 - [x] Add intended functionality
 - *extra functionality*
 	- [x] Modify text input to prevent code injection
-- [ ] Make it pretty
-- [ ] \(Optional) Add stuff to to-do list if I think of more stuff to add 
+	- [x] The "delete" button on each Activity appears when hovered over
+	- [x] The text input appears/disappears when the 'pencil & note' icon is clicked
+- [x] Make it pretty
+- [x] \(Optional) Add stuff to to-do list if I think of more stuff to add 
+- [ ] \(Optional) Save To-Do List (maybe Node.JS back-end with accounts or cookies or both)
 
 Name: Jay Song
 Date: Dec. 05, 2017

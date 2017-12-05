@@ -1,20 +1,87 @@
-body.check{
-	background-color:pink;
+body{
+	/* background color gradient from uiGradients.com */
+	/* gradient name: Skyline */
+	background: #1488cc; /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to right, #1488cc, #2b32b2); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to right, #1488cc, #2b32b2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+h1{
+	background-color: #125fa5;
+	color: white;
+	margin: 0;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 500;
+}
+input{
+	display: none;
+	margin: 0;
+	padding: 10px 10px 10px 30px;
+	border: none;
+	font-size: 20px;
+	background-color: #dfdfdf;
+	width: 100%;
+	outline: none;
+	height: 50px;
+	line-height: 50px;
+	color: #202020;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+input:focus{
+	border:2px solid #125fa5;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li{
+	background-color: white;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: #202020;
+}
+li:nth-child(2n){
+	background-color: #dfdfdf;
+}
 #content{
-	border: 1px solid black;
-	margin: 5px auto; /* center it horizontally */
-	background-color: rgba(180, 100, 240, 0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	margin: 75px auto; /* center it horizontally */
+	background-color: #dfdfdf;
 	width: 400px;
-	font-family: Arial;
+	font-family: Nunito, Arial;
 }
-
-/* gray text strikethrough */
+h1 i.fa{
+	float: right;
+	margin-top: 5px;
+}
+span.activity{
+	padding-left: 10px;
+}
 span.completed.activity{
 	text-decoration: line-through;
 	color: #959595;
 }
 span.completed.delete{
 	color: #959595;
+}
+span.delete{
+	background-color: #e74c3c;
+	height: 50px;
+	line-height: 50px;
+	width: 0px;
+	opacity: 0;
+	display: inline-block;
+	text-align: center;
+	color: white;
+	transition: 0.25s linear;
+}
+li:hover span.delete{
+	width: 50px;
+	opacity: 1.0;
 }

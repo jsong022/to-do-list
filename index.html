@@ -4,34 +4,36 @@
 	<title>To-Do List</title>
 	<!-- jQuery -->
 	<script type="text/javascript" src="./assets/js/lib/jquery-3.2.1.min.js"></script>
-
-	<!-- Bootsrap CSS -->
-	<!-- <link rel="stylesheet" type="text/css" href="./assets/css/lib/bootstrap.min.css"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="./assets/js/lib/bootstrap.min.js"> -->
-
+	<!-- font from Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<!-- Font Awesome icons CDN -->
+	<script src="https://use.fontawesome.com/10832e0250.js"></script>
 	<!-- my CSS stylesheet -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/todolist.css">
 </head>
 <body>
 
 <div id="content">
-	<h1>To-Do List</h1>
-	<input type="text">
+	<h1>
+		To-Do List
+		<i class="fa fa-pencil-square-o fa-lg" id="newAct"></i>
+	</h1>
+	<input type="text" id="newActInput" placeholder="Add New Activity">
 	<ul>
 		<li>
-			<span class="delete">[X] </span>
+			<span class="delete"><i class="fa fa-trash-o"></i></span>
 			<span class="activity">Find Old Ben Kenobi</span>
 		</li>
 		<li>
-			<span class="delete">[X] </span>
+			<span class="delete"><i class="fa fa-trash-o"></i></span>
 			<span class="activity">Go to Tosche Station</span>
 		</li>
 		<li>
-			<span class="delete">[X] </span>
+			<span class="delete"><i class="fa fa-trash-o"></i></span>
 			<span class="activity">Pick up Power Converters</span>
 		</li>
 		<li>
-			<span class="delete">[X] </span>
+			<span class="delete"><i class="fa fa-trash-o"></i></span>
 			<span class="activity">Join the Rebellion</span>
 		</li>
 	</ul>
