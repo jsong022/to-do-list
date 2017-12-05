@@ -5,8 +5,8 @@ A simple to-do list as practice for using jQuery.
 
 Goal:
 - [ ] enter new activity to the list by entering it into the text input
-- [ ] delete listed activities by clicking on the \[X]'s
-- [ ] strike-through "completed" activity by clicking on them (to remain on list)
+- [x] delete listed activities by clicking on the \[X]'s
+- [x] strike-through "completed" activity by clicking on them (to remain on list)
 
 ###To-Do List 
 ######(for the To-Do List. ha ha. good joke.)
