@@ -1,6 +1,6 @@
-#To-Do List w/ jQuery#
+# To-Do List w/ jQuery
 
-###Introduction###
+### Introduction
 A simple to-do list as practice for using jQuery.
 
 Goal:
@@ -8,8 +8,8 @@ Goal:
 - [x] delete listed activities by clicking on the \[X]'s
 - [x] strike-through "completed" activity by clicking on them (to remain on list)
 
-###To-Do List###
-######(for the To-Do List. ha ha. good joke.)######
+### To-Do List
+###### (for the To-Do List. ha ha. good joke.)
 - [x] Add intended functionality
 - *extra functionality*
 	- [x] Modify text input to prevent code injection
