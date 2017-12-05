@@ -10,3 +10,11 @@ body.check{
 	font-family: Arial;
 }
 
+/* gray text strikethrough */
+span.completed.activity{
+	text-decoration: line-through;
+	color: #959595;
+}
+span.completed.delete{
+	color: #959595;
+}
